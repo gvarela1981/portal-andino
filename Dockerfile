@@ -13,5 +13,4 @@ RUN $CKAN_HOME/bin/pip install -e git+https://github.com/datosgcba/ckanext-gcbaa
 
 COPY install/db-ext/i18ln/* /usr/lib/ckan/default/src/ckan/ckan/public/base/i18n/
 COPY install/db-ext/init.sh /etc/ckan_init.d/init.sh
-COPY install/db-ext/init.sh /etc/ckan_init.d/init.sh
 COPY install/db-ext/production.ini /etc/ckan/default/production.ini 
